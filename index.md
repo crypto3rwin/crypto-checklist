@@ -53,6 +53,11 @@ Wie bei Aktien gibt es "solche und solche". Ich gliedere Coins in 3 Gruppen:
 - Forsche wer bereits in das Projekt investiert hat. Wie sieht die Community hinter dem Projekt aus? Ist das eher ein Kult von Menschen die nur über den Kurs reden? Oder geht es um die Technik und die Möglichekiten? Stehen sie der Zukunft des Projekts optimitsch gegenüber?
 - Wenn es ein Whitepaper gibt und viel Wettbewerb: Wird das in dem Dokument erwähnt? Wie wird damit umgegangen?
 
+
+### Coin Market Cap
+ {% raw %}
+  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+ {% endraw %}
 ### Was hier noch fehlt / besser gemacht werden sollte
 - Coin Market Cap besser erklären?
 - kann man beliebig nachdrucken - Doge Coin?  Max Supply
