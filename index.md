@@ -58,6 +58,8 @@ Wie bei Aktien gibt es "solche und solche". Ich gliedere Coins in 3 Gruppen:
  {% raw %}
   $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
  {% endraw %}
+ Using Jekyll; this simple solution worked well! Example (1): $h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$ ; example (2): $a^2 + b^2 = c^2$ ; example (3): $\sum_{i=1}^m y^{(i)}$ – Victoria Stuart Aug 31 '18 at 16:52 
+
 ### Was hier noch fehlt / besser gemacht werden sollte
 - Coin Market Cap besser erklären?
 - kann man beliebig nachdrucken - Doge Coin?  Max Supply
