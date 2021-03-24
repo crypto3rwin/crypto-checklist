@@ -14,7 +14,7 @@ Wie bei Aktien gibt es "solche und solche". Ich gliedere Coins in 3 Gruppen:
 ## Gewinnmöglichkeiten von Crypto Coins
 
 | Typ                                | Stable Coins                  | Altcoins                  | Shitcoins                                           |
-|------------------------------------|-------------------------------|---------------------------|-----------------------------------------------------|
+|-----------------------------------|------------------------------|---------------------------|-----------------------------------------------------|
 | Wann kaufen                        | Coins die am Boden liegen     | Coins die am Boden liegen | Vor dem Fomo - idealerweise in einem Seitwärtskanal |
 | Wann verkaufen / Wie lange halten? | Langfristig  - über 15 Monate | Zeitraum ~ 3 Monate       | Wachstum ab 100%                                    |
 | Möglichkeiten über den Zeitraum    | 20%-500%                      | +- 200%                   | ~ +- 1000%                                          |
@@ -32,8 +32,7 @@ Wie bei Aktien gibt es "solche und solche". Ich gliedere Coins in 3 Gruppen:
 - Glaub nicht den Youtubern mit den lustigen Gesichtern - die machen gerne [Pump & Dump](https://de.wikipedia.org/wiki/Pump_and_Dump)
 - Investiere nicht in einen Coin nur aufgrund einer Quelle
 - Fall nicht auf Pump & Dump rein. 
-- Behalte die Mathematik im Auge. Kauf nicht nur weil es günstig ist. Diese [Seite](https://thecoinperspective.com/?c=XMR
-) hilft dir die Market Cap zu verstehen.
+- Behalte die Mathematik im Auge. Kauf nicht nur weil es günstig ist. Schau Dir die [Market Cap](#coin-market-cap) an
 
 
 ## Was man machen sollte
@@ -55,13 +54,37 @@ Wie bei Aktien gibt es "solche und solche". Ich gliedere Coins in 3 Gruppen:
 
 
 ### Coin Market Cap
- {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
- Using Jekyll; this simple solution worked well! Example (1): $h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$ ; example (2): $a^2 + b^2 = c^2$ ; example (3): $\sum_{i=1}^m y^{(i)}$ – Victoria Stuart Aug 31 '18 at 16:52 
+Eine interessante Metrik um Cryptos zu vergleichen. Jeder hat mal den Satz "Der Coin kann locker mal 1000$ wert sein" gehört.
+Mit Hile der Marktkapitalisierung kann man überprüfen ob das Szenario eintreten kann.
+
+
+Marktkapitalisierung =  Anzahl der verfügbaren Einheiten *n* * Wert einer Einheit *m*.
+
+###Beispielrechnung für Cardano (ADA) am  2021-03-24
+
+Wir berechnen welchen Preis ADA haben muß um die Market Cap von Bitcoin zu erreichen.
+
+| Coin | Market Cap   | Price    |
+|:----:|:------------:|:--------:|
+| ADA  | 30762451262  | 47451,38 |
+| BTC  | 885595856153 | 0,960177 |
+
+Die Market Cap von BTC ist ~29 mal höher als die von ADA
+(885595856153 / 30762451262 )
+Ergo muß der Preis von ADA auf 29 * 0,96€ steigen um eine gleiche Marktkapitalisierung zu erreichen. 
+Das sind **~27€**  - ein schöner Kurs aber weit entfernt von 1000€ pro Coin.
+Um auf die 1000€ / Coin  zu kommen benötigen wir eine Market Cap von *30762451262 / 0,960177 * 1000*
+also **32.044.220.064.583,3€**. Die Marktkapitalisierung von Gold beträgt aktuell 11.027 Billionen US$. 
+Nun kann man für sich selbst beantworten wie realistisch ein solcher Kurs ist.  
+###Nützliche Tools rund um die Market Cap
+
+[Coingecko](https://www.coingecko.com/de/munze/cardano) ist ein ziemlich praktisches Tool und liefert die Werte
+![screenshot ada](./images/market-cap-ada.png)
+[Thecoinperspective.com](https://thecoinperspective.com/?c=ADA&vs=BTC) macht die Berechnung für Dich. 
+
 
 ### Was hier noch fehlt / besser gemacht werden sollte
-- Coin Market Cap besser erklären?
+
 - kann man beliebig nachdrucken - Doge Coin?  Max Supply
 - kommen noch Airdrops - Reef
 - Wie lange ist der Coin am Markt? 
